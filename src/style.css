@@ -1,0 +1,237 @@
+/* Reset styles */
+html,body, body * { 
+    box-sizing: border-box; 
+    font-family: "Open Sans", Arial, sans-serif;
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+    /* border:2px solid orange; */
+ }
+
+ body {
+    background-image:url("computer-test.jpg");
+    background-size:cover;
+    background-position:center center;
+    
+  }
+   .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+  } 
+
+
+  .login-register-wrapper {
+      height: 600px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      padding:0 2em;
+      border-radius: 20px;
+      overflow: hidden; 
+      color:white;
+      margin-top: 20px;
+      background:rgb(0, 0, 0);
+  }
+  .login-register-wrapper:hover{
+      transition-duration: 0.4s;
+      box-shadow: 0 0px 15px 0 rgb(255, 230, 0), 0 0px 15px 0 rgb(255, 230, 0);
+  }
+  #nav-btn{
+      color: white;
+  }
+  /* Nav buttons */
+  .nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 2em;
+  }
+  button {
+      font-size: 1.5em;
+      margin-right:1em;
+      border:0px;
+      cursor:pointer;
+   
+  }
+  button:focus {
+      outline: 0px;
+  }
+  button.active {
+      padding-bottom: 10px;
+      border-bottom: solid 2px burlywood;
+  } 
+  
+   /* footer: forgot section */
+   .forgot-panel{
+    position: absolute;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    border-top:solid 2px rgb(255, 255, 255);    
+}
+
+    /* form styling */
+    .form-group input {
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        background-color:rgb(29, 26, 26);
+    }
+    #submit {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 13px;
+        text-align: center;
+        color: black;
+        padding: 8px 0px;
+        width: 35%;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 1px;
+        background-color:yellow;
+    
+    } 
+
+#submit:hover{
+    font-family: "Open Sans", sans-serif;
+    transition-duration: 0.2s;
+    box-shadow: 0 3px 16px 0 rgba(252, 0, 0, 0.19), 0 3px 30px 0 rgba(255, 2, 2, 0.19);
+    color: black;
+    border-radius: 10px;
+    background-color:yellow;
+    cursor: pointer;
+}
+
+    /*Form positioning and animation */
+
+    form#registerform {
+        left:500px;
+        top:-230px;
+        position:relative;
+    }
+   
+
+
+
+
+
+     .forgot-panel { 
+        margin-top:-380px;
+        color:white;
+        display: block;
+    }
+
+    form, .forgot-panel { 
+        position: relative;
+        transition: all 0.1s ease;
+    }
+    #loginBtn, #registerBtn {
+        transition: all 0.1s ease;
+
+    }
+
+
+#fpassword{
+    font-size: 13px;
+    margin-top: -13px;
+}
+.change{
+    font-size: 13px;
+    margin-top: -13px;
+    padding-bottom: 15px;
+    color:white;
+    display: inline-block;
+}
+#tlogin
+{
+    color:black;
+    font-size: 20px;
+    padding-left: 4px;
+}
+#tlogin:hover{
+    color:whitesmoke;
+    transition-duration: 0.7s;
+}
+
+h5{
+    font-size: medium;
+    margin-top: 15px;
+}
+#info{
+    color: white;
+}
+
+#error{
+    font-size: 9.5px;
+    margin-top: -13px;
+    padding-bottom: 15px;
+}
+link{
+    font-family: "Open Sans", sans-serif;
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        background-color:#f3f3f3;
+}
+
+#sregister{
+    font-size: 1pc;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.a-link{
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.a-link:hover{
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.login-title {
+    color:#FFEF33;
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 2em;
+    font-size: 30px;
+}
+#togglePassword
+{
+    margin-left: -30px; 
+    cursor: pointer;
+}
+
+img {
+    color:white;
+    background-color: rgb(29, 26, 26);
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    right: 8px;
+    top: 16px;
+  }
+.pwd-container{
+    position: relative;
+}

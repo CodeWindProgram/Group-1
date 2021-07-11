@@ -1,8 +1,9 @@
+
 import './App.css';
 import Teacher from "./Teacher"
 import Student  from "./Student"
 import { Route,Switch } from "react-router-dom";
-import ForgotPassword from "./ForgotPassword";
+import ForgotPassword from './ForgotPassword';
 
 
 function App() {

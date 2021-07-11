@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import "./Student.css";
+import "./style.css";
 import { useSpring, animated } from "react-spring";
 import { useForm } from 'react-hook-form';
 import {yupResolver} from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import {Link} from 'react-router-dom';
+import showPwdImg from './show-password.svg';
+import hidePwdImg from './hide-password.svg';
 
 function Student() {
+  
   const [registrationFormStatus, setRegistartionFormStatus] = useState(false);
   const loginProps = useSpring({ 
     left: registrationFormStatus ? -500 : 0, // Login form sliding positions
@@ -18,11 +20,11 @@ function Student() {
   const loginBtnProps = useSpring({
     borderBottom: registrationFormStatus 
       ? "solid 0px transparent"
-      : "solid 2px #ffef10",  //Animate bottom border of login button
+      : "solid 2px #FFEF33",  //Animate bottom border of login button
   });
   const registerBtnProps = useSpring({
     borderBottom: registrationFormStatus
-      ? "solid 2px #ffef10"
+      ? "solid 2px #FFEF33"
       : "solid 0px transparent", //Animate bottom border of register button
   });
 
@@ -33,20 +35,19 @@ function Student() {
     setRegistartionFormStatus(false);
   }
 
-
   return (
     <div className="login-register-wrapper">
       <div className="nav-buttons">
         <animated.button
           onClick={loginClicked}
-          id="loginBtn"
+          id="nav-btn"
           style={loginBtnProps}
         >
           Login
         </animated.button>
         <animated.button
           onClick={registerClicked}
-          id="registerBtn"
+          id="nav-btn"
           style={registerBtnProps}
         >
           Register
@@ -61,11 +62,10 @@ function Student() {
         </animated.form>
       </div>
       <animated.div className="forgot-panel" style={loginProps}>
-       <Link to="/forgotpassword" class="forgetpassword"> Forgot Password?</Link>
-       <br></br>
-       <br></br>
-      <Link to="/teacher"><h4>TEACHER LOGIN</ h4></Link>
+        <p>Not registered? <button onClick={registerClicked} id="sregister">Register</button><a href="/forgotpassword">Forgot Password?</a></p>
+        <h5><a href="/teacher" className="a-link">Teacher Login</a></h5>
       </animated.div>
+      
     </div>
   );
 }
@@ -73,28 +73,47 @@ function Student() {
   
 
 function LoginForm() {
+ 
   const schema=yup.object().shape({
-    UserName : yup.string().max(30).required(),
-    Password : yup.string().required().max(20).min(8)
+    UserName : yup.string().max(15).required(),
+    Password : yup.string().min(8).max(20).required()
+   
 })
-
   const {register,handleSubmit,formState:{errors}}=useForm({
     resolver: yupResolver(schema)
 });
 
+const [setPwd] = useState('');
+const [isRevealPwd, setIsRevealPwd] = useState(false);
 const submitForm =(data)=>{
     console.log(data);
     
 }
   return (
     <React.Fragment>
-      <label for="username">Username</label>
-      <input type="text" name="UserName"  {...register("UserName")}/>
-      <p>{errors.UserName?.message}</p>
-      <label for="password">Password</label>
-      <input type="password" name="Password"  {...register("Password")}/>
-      <p>{errors.Password?.message}</p>
-      <input type="submit" value="submit" className="submit" onClick={handleSubmit(submitForm)}/>
+      <label for="username" id='info'>Username</label>
+      <input type="text" name="UserName" placeholder="Enter your Username"  {...register("UserName")}/>
+      <p id="error">{errors.UserName?.message}</p>
+      <label for="password" id='info'>Password</label>
+      
+      <div className='pwd-container'>
+      
+      <input type={isRevealPwd ? "text" : "password"}
+      name="Password"
+      id='info'
+      onChange={e => setPwd(e.target.value)}
+      placeholder="Enter your Password" {...register("Password")}/>
+      
+      <img
+      title={isRevealPwd ? "Hide password" : "Show password"}
+      src={isRevealPwd ? hidePwdImg : showPwdImg}
+      alt=''
+      onClick={() => setIsRevealPwd(prevState => !prevState)}
+    />
+    <p id="error">{errors.Password?.message}</p>
+    </div>
+      
+      <input type="submit" value="Login" id="submit" onClick={handleSubmit(submitForm)} />
       
     </React.Fragment>
   );
@@ -102,11 +121,15 @@ const submitForm =(data)=>{
 
 function RegisterForm() {
   const schema=yup.object().shape({
-    Name : yup.string().max(30).required(),
+    UserName : yup.string().max(15).required(),
     Email : yup.string().email().required(),
-    Password : yup.string().min(8).max(20).required()
+    Password : yup.string().min(8).max(20).required(),
+    ConfirmPassword:yup.string().required().oneOf([yup.ref('NewPassword'),null],"Paswords Mismatch")
 })
+const [setCPwd, setPwd] = useState('');
+const [isRevealCPwd, setIsRevealCPwd] = useState(false);
 
+const [isRevealPwd, setIsRevealPwd] = useState(false);
   const {register,handleSubmit,formState:{errors}}=useForm({
     resolver: yupResolver(schema)
 });
@@ -116,18 +139,47 @@ const regForm =(data)=>{
 }
   return (
     <React.Fragment>
-      <div className="reg-container">
-      <label for="fullname" >Name</label>
-      <input type="text" name="Name" {...register("Name")}/>
-      <p>{errors.Name?.message}</p>
-      <label for="email">Email Id</label>
-      <input type="text" name="Email" {...register("Email")}/>
-      <p>{errors.Email?.message}</p>
-      <label for="password">Password</label>
-      <input type="password" name="Password" {...register("Password")}/>
-      <p>{errors.Password?.message}</p>
-      <input type="submit" value="submit" class="submit" onClick={handleSubmit(regForm)} />
+      <label for="fullname" id='info'>Name</label>
+      <input type="text" name="UserName" placeholder="Enter your Name" {...register("UserName")}/>
+      <p id="error">{errors.UserName?.message}</p>
+      <label for="email" id='info'>Email</label>
+      <input type="text" name="Email" placeholder="Enter your Email" {...register("Email")} />
+      <p id="error">{errors.Email?.message}</p>
+      <label for="password" id='info'>Password</label>
+      <div className='pwd-container'>
+      <input type={isRevealPwd ? "text" : "password"}
+      name="Password"
+      id='info'
+      onChange={e => setPwd(e.target.value)}
+      placeholder="Enter your Password" {...register("Password")}/>
+      <img
+      title={isRevealPwd ? "Hide password" : "Show password"}
+      src={isRevealPwd ? hidePwdImg : showPwdImg}
+      alt=''
+      onClick={() => setIsRevealPwd(prevState => !prevState)}
+    />
+      <p id="error">{errors.Password?.message}</p>
       </div>
+      
+      <label for="password">Confirm Password</label>
+      <div className='pwd-container'>
+      <input type={isRevealCPwd ? "text" : "password"}
+      name="ConfirmPassword"
+      id='info'
+      placeholder="Enter Password Again"
+      onChange={d => setCPwd(d.target.value)}
+      {...register("ConfirmPassword")}/>
+      
+      <img
+      title={isRevealCPwd ? "Hide password" : "Show password"}
+      src={isRevealCPwd ? hidePwdImg : showPwdImg}
+      alt=''
+      onClick={() => setIsRevealCPwd(prevState => !prevState)}
+    />
+     
+      <p id="error">{errors.ConfirmPassword?.message}</p>
+      </div>
+      <input type="submit" value="Register" id="submit" onClick={handleSubmit(regForm)} />
     </React.Fragment>
   );
 }
