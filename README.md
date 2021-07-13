@@ -39,8 +39,17 @@ Before selecting the Final design of our project :
 - I created the Front-End part of the website conatining Login page, Register Page and  Forget password. 
 - Discussing with @shashikant738, also made the changes related to the Background image and make the Login page conatiner.
 
+@abhikk9 - abhikk9@gmail.com
+Before selecting final design:-
+- Worked on the frontend made by @Sailik11 and tried to connect the backend database to the frontend.
+- Made a login page for selection process between the group members.
+- Connected this page to @Sailik11 Navbar and created a login page.
+- Worked on design made by @vedapatkar04, adding some features and changing designs.
+After selecting Final design:-
+- Cleaned the code making it better connected and more understanding as it was showing many compilation errors and different CSS files were created for different JS files.
+- Connected the Student Login to Teacher Login and vice versa.
+- Corrected the problem of Button going down after clicking on Register Button in the register page.
+- Changed the UI with the help of @Sailik11 and added more features such as Register button at the bottom of the login page & added show or hide password features in the code.
+- Corrected the Password Validation Error that occured in the Testing Phase.
+- My Final code was updated to GitHub by Rahul Bagwe.
 
-@shashikant738 - helloshashihear@gmail.com
-Before selecting the final design of our project, I did the following tasks:
-- I designed the Front-End part of the website containing Login page, Register Page and  Forget password. 
-- Discussing with @Deepika938 and also with the group, I made the changes related to the Background, and  resize the login and register container.  
