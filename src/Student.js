@@ -124,7 +124,7 @@ function RegisterForm() {
     UserName : yup.string().max(15).required(),
     Email : yup.string().email().required(),
     Password : yup.string().min(8).max(20).required(),
-    ConfirmPassword:yup.string().required().oneOf([yup.ref('NewPassword'),null],"Paswords Mismatch")
+    ConfirmPassword:yup.string().required().oneOf([yup.ref('Password'),null],"Paswords Mismatch")
 })
 const [setCPwd, setPwd] = useState('');
 const [isRevealCPwd, setIsRevealCPwd] = useState(false);
