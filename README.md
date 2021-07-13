@@ -40,11 +40,13 @@ Before selecting the Final design of our project :
 - Discussing with @shashikant738, also made the changes related to the Background image and make the Login page conatiner.
 
 @abhikk9 - abhikk9@gmail.com
+
 Before selecting final design:-
 - Worked on the frontend made by @Sailik11 and tried to connect the backend database to the frontend.
 - Made a login page for selection process between the group members.
 - Connected this page to @Sailik11 Navbar and created a login page.
 - Worked on design made by @vedapatkar04, adding some features and changing designs.
+
 After selecting Final design:-
 - Cleaned the code making it better connected and more understanding as it was showing many compilation errors and different CSS files were created for different JS files.
 - Connected the Student Login to Teacher Login and vice versa.
