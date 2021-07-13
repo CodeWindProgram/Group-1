@@ -27,3 +27,9 @@ After selecting the final design for our group , I did the following piece of wo
 - Made changes to the design created by @gkhush-23 like adding hovering effect to the page ,changed the title of the login page 
 - Made the forgot password page and added it to the final login page.
 - Added a logo to the login page of my own design, changed the input type of all the input fields,changed the css styling.
+
+@HarshadaKG - gotarneharshada@gmail.com
+Before selecting the final design I did the following task:
+- designed a layout for my own Login page.
+- made a front end which contain login and sign up page.
+
