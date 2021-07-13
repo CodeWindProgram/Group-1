@@ -40,3 +40,7 @@ Before selecting the Final design of our project :
 - Discussing with @shashikant738, also made the changes related to the Background image and make the Login page conatiner.
 
 
+@shashikant738 - helloshashihear@gmail.com
+Before selecting the final design of our project, I did the following tasks:
+- I designed the Front-End part of the website containing Login page, Register Page and  Forget password. 
+- Discussing with @Deepika938 and also with the group, I made the changes related to the Background, and  resize the login and register container.  
