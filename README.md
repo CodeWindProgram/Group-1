@@ -15,5 +15,5 @@ After selecting the final design for our group, I did the following tasks:
 @vedapatkar04 - patkarvedanti@gmail.com
 Before selecting the final design for our group:
 - Designed a layout for my own login page.
-- Made a front end of my own design which contains a Login page and a Registeration page.
+- Made a responsive front end of my own design which contains a Login page and a Registeration page.
 - Made few changes in the login page by adding images.
