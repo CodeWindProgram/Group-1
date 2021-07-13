@@ -69,3 +69,9 @@ Before selecting the final design for our project, I did the folowing task :  :
 - Updated daily evaluations on behalf of the group.
 - Created some test cases.
 
+
+@apurva0401 - apurva04012001@gmail.com
+
+- Explored about nodejs and got an understanding about how it is actually used.
+- Made some changes (changes in color in one of the buttons) in khushboo's design.
+- Discussed with @haiqakhan about the test cases and finalised them all.
