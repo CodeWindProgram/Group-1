@@ -17,3 +17,14 @@ Before selecting the final design for our group:
 - Designed a layout for my own login page.
 - Made a responsive front end of my own design which contains a Login page and a Registeration page.
 - Made few changes in the login page by adding images.
+
+@Priyadarshini0209 - pri.priyash@gmail.com
+Before selecting the final login page design , I did the following piece of work :
+- Made some changes to the frontend done by @HarshadaKG like changing background image,font style,responsiveness
+- Made the forgot password page of my own design.
+- Made the forgot password page of my own design.
+
+After selecting the final design for our group , I did the following piece of work:
+- Made changes to the design created by @gkhush-23 like adding hovering effect to the page ,changed the title of the login page 
+- Made the forgot password page and added it to the final login page.
+- Added a logo to the login page of my own design, changed the input type of all the input fields,changed the css styling.
