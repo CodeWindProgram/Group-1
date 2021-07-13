@@ -64,7 +64,8 @@ Before selecting the final design for our project, I did the folowing task :  :
 
 
 @haiqakhan - haiqawkhan@gmail.com
--Researched about PostgreSQL and how it actually works.
--Updated daily evaluations on behalf of the group.
--Created some test cases.
+
+- Researched about PostgreSQL and how it actually works.
+- Updated daily evaluations on behalf of the group.
+- Created some test cases.
 
