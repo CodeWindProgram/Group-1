@@ -61,3 +61,10 @@ After selecting Final design:-
 Before selecting the final design for our project, I did the folowing task :  :
 - I designed the Front-End part of the website containing Login page, Register Page and  Forget password. 
 - Discussing with @Deepika938 and also with the group, I made the changes related to the Background, and  resize the login and register container.  
+
+
+@haiqakhan - haiqawkhan@gmail.com
+-Researched about PostgreSQL and how it actually works.
+-Updated daily evaluations on behalf of the group.
+-Created some test cases.
+
