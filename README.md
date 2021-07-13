@@ -55,3 +55,8 @@ After selecting Final design:-
 - Corrected the Password Validation Error that occured in the Testing Phase.
 - My Final code was updated to GitHub by Rahul Bagwe.
 
+
+@shashikant738 - helloshashihear@gmail.com
+Before selecting the final design for our project, I did the folowing task :  :
+- I designed the Front-End part of the website containing Login page, Register Page and  Forget password. 
+- Discussing with @Deepika938 and also with the group, I made the changes related to the Background, and  resize the login and register container.  
