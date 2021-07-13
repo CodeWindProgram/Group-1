@@ -32,7 +32,7 @@ After selecting the final design for our group , I did the following piece of wo
 Before selecting the final design I did the following task:
 - designed a layout for my own Login page.
 - made a front end which contain login and sign up page.
-- made a forgot password page for my own design.
+- made a forgot password page of my own design.
 
 
 @Deepika938 - ydeepika049@gmail.com
