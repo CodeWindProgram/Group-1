@@ -34,4 +34,9 @@ Before selecting the final design I did the following task:
 - made a front end which contain login and sign up page.
 
 
+@Deepika938 - ydeepika049@gmail.com
+Before selecting the Final design of our project :
+- I created the Front-End part of the website conatining Login page, Register Page and  Forget password. 
+- Discussing with @shashikant738, also made the changes related to the Background image and make the Login page conatiner.
+
 
