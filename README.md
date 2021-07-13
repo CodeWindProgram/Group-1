@@ -22,7 +22,6 @@ Before selecting the final design for our group:
 Before selecting the final login page design , I did the following piece of work :
 - Made some changes to the frontend done by @HarshadaKG like changing background image,font style,responsiveness
 - Made the forgot password page of my own design.
-- Made the forgot password page of my own design.
 
 After selecting the final design for our group , I did the following piece of work:
 - Made changes to the design created by @gkhush-23 like adding hovering effect to the page ,changed the title of the login page 
