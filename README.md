@@ -84,3 +84,12 @@ Before selecting the final design for our project, I did the folowing task :  :
 - Explored about nodejs and got an understanding about how it is actually used.
 - Made some changes (changes in color in one of the buttons) in khushboo's design.
 - Discussed with @haiqakhan about the test cases and finalised them all.
+
+
+@RahulBagwe - rahulbagwe2010@gmail.com
+
+- Gathered requirements with @Sailik11.
+- Researched about ReactJS, NodeJS, npx, npm and yarn.
+- Made some changes to the frontend done by @HarshadaKG like adding spaces between elements to make the page appear more clean.
+- Made slight changes to the selected design done by @Sailik11.
+- Uploaded the final updated code by @abhikk9 to GitHub.
