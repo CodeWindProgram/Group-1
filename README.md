@@ -2,6 +2,7 @@
 ## To develop a Login Page
 
 @Sailik11 - sailikadamj1911@gmail.com
+
 Before selecting the final design for our group, I did the following tasks:
 - Created a Responsive NavBar containing Home,Student Login, Teacher Login, Contact us and Sign Up contents.
 - Made a frontend of my own design containing only Teacher's Login
@@ -13,12 +14,15 @@ After selecting the final design for our group, I did the following tasks:
 
 
 @vedapatkar04 - patkarvedanti@gmail.com
+
 Before selecting the final design for our group:
 - Designed a layout for my own login page.
 - Made a responsive front end of my own design which contains a Login page and a Registeration page.
 - Made few changes in the login page by adding images.
 
+
 @Priyadarshini0209 - pri.priyash@gmail.com
+
 Before selecting the final login page design , I did the following piece of work :
 - Made some changes to the frontend done by @HarshadaKG like changing background image,font style,responsiveness
 - Made the forgot password page of my own design.
@@ -28,7 +32,9 @@ After selecting the final design for our group , I did the following piece of wo
 - Made the forgot password page and added it to the final login page.
 - Added a logo to the login page of my own design, changed the input type of all the input fields,changed the css styling.
 
+
 @HarshadaKG - gotarneharshada@gmail.com
+
 Before selecting the final design I did the following task:
 - designed a layout for my own Login page.
 - made a front end which contain login and sign up page.
@@ -36,9 +42,11 @@ Before selecting the final design I did the following task:
 
 
 @Deepika938 - ydeepika049@gmail.com
+
 Before selecting the Final design of our project :
 - I created the Front-End part of the website conatining Login page, Register Page and  Forget password. 
 - Discussing with @shashikant738, also made the changes related to the Background image and make the Login page conatiner.
+
 
 @abhikk9 - abhikk9@gmail.com
 
@@ -58,6 +66,7 @@ After selecting Final design:-
 
 
 @shashikant738 - helloshashihear@gmail.com
+
 Before selecting the final design for our project, I did the folowing task :  :
 - I designed the Front-End part of the website containing Login page, Register Page and  Forget password. 
 - Discussing with @Deepika938 and also with the group, I made the changes related to the Background, and  resize the login and register container.  
