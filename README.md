@@ -98,10 +98,10 @@ Before selecting the final design for our project, I did the folowing task :  :
 @gkhush-23 - gkhush1223@gmail.com
 
 Before selecting the final login page design , I did the following piece of work :
--Explored about react,yarn,npm,npx.
--Design teacherlogin page, studentlogin page and student registration page.
--Adding the image to the background and connecting both loginpage.
--Validation done on each input field.
+ -Explored about react,yarn,npm,npx.
+ -Design teacherlogin page, studentlogin page and student registration page.
+ -Adding the image to the background and connecting both loginpage.
+ -Validation done on each input field.
 After selecting Final desig:
 - forward code  to the Priyadarshini and abhishek .
  
