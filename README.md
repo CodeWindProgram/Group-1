@@ -102,6 +102,7 @@ Before selecting the final login page design , I did the following piece of work
  -Design teacherlogin page, studentlogin page and student registration page.
  -Adding the image to the background and connecting both loginpage.
  -Validation done on each input field.
-After selecting Final desig:
+
+After selecting Final design:
 - forward code  to the Priyadarshini and abhishek .
  
