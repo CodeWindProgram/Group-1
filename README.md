@@ -4,6 +4,7 @@
 @Sailik11 - sailikadamj1911@gmail.com
 
 Before selecting the final design for our group, I did the following tasks:
+- Gathered user requirements with @RahulBagwe.
 - Created a Responsive NavBar containing Home,Student Login, Teacher Login, Contact us and Sign Up contents.
 - Made a frontend of my own design containing only Teacher's Login
 
