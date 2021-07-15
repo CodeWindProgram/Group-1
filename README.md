@@ -106,4 +106,11 @@ Before selecting the final login page design , I did the following piece of work
 
 After selecting Final design:
 - forward code  to the Priyadarshini and abhishek .
+
+@aditidalvi - aditidalvi22@gmail.com
+- Explored about react,yarn,npm,npx
+- Designed a layout for my own login page.
+
+
+
  
