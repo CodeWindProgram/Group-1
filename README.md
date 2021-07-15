@@ -116,4 +116,7 @@ After selecting Final design:
 - Researched about ReactJS, NodeJS, npx, npm and yarn.
 - Designed a basic login page layout.
 
- 
+@SiddhantYerandkar - siddhantyerandkar@gmail.com
+- Researched about NodeJS, ReactJS, npm, npx and yarn.
+- Desinged a rough layout of login page.
+- created documentation for the group along with @Pritesh22.
