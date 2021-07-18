@@ -63,7 +63,7 @@ After selecting Final design:-
 - Corrected the problem of Button going down after clicking on Register Button in the register page.
 - Changed the UI with the help of @Sailik11 and added more features such as Register button at the bottom of the login page & added show or hide password features in the code.
 - Corrected the Password Validation Error that occured in the Testing Phase.
-- My Final code was updated to GitHub by Rahul Bagwe.
+- My Final code was updated to GitHub by @RahulBagwe.
 
 
 @shashikant738 - helloshashihear@gmail.com
